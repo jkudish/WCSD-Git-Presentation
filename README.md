@@ -78,6 +78,9 @@ This program incorporates work covered by the following copyright and
 permission notices:
 
 Original [Slide Presentation Framework by Brian Cavalier](https://github.com/briancavalier/slides)
+
 Open Source Initiative OSI - The MIT License
+
 http://www.opensource.org/licenses/mit-license.php
+
 Copyright (c) 2011 Brian Cavalier
