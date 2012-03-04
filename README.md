@@ -1,4 +1,4 @@
-This git repository is my [http://2012.sandiego.wordcamp.org/schedule/](2012 WordCamp San Diege presentation). Below is the outline for the presentation and later my slides will become part of the repo as well.
+This git repository is my [2012 WordCamp San Diege presentation](http://2012.sandiego.wordcamp.org/schedule/). Below is the outline for the presentation and later my slides will become part of the repo as well.
 
 The idea here is that anyone can contribute to the talk by submitting pull requests or opening up issues for questions or comments.
 
@@ -18,15 +18,15 @@ You can also reach me more privately at [info@jkudish.com](info@jkudish.com) if 
 
 ### Themes
 
-* [https://github.com/retlehs/roots](Roots)
-* [https://github.com/Automattic/_s](Automattic's _s)
-* [https://github.com/welaika/wordless](Wordless)
-* 
+* [Roots](https://github.com/retlehs/roots)
+* [Automattic's _s](https://github.com/Automattic/_s)
+* [Wordless](https://github.com/welaika/wordless)
 
 ### Plugins
 
-* [https://github.com/woothemes/woocommerce](WooCommerce)
-* [https://github.com/crowdfavorite/wp-post-formats](WP-post-formats)
+* [WooCommerce](https://github.com/woothemes/woocommerce)
+* [WP-post-formats](https://github.com/crowdfavorite/wp-post-formats)
+* [Custom Metadata Manager](https://github.com/jkudish/custom-metadata)
 
 
 ### Private Clients
@@ -38,12 +38,11 @@ You can also reach me more privately at [info@jkudish.com](info@jkudish.com) if 
 
 ### Other Projects
 
-* [https://github.com/andreascreten/wp-cli](WP-cli)
-* 
+* [WP-cli](https://github.com/andreascreten/wp-cli)
 
 ### Core Development
 
-* [https://github.com/WordPress/WordPress](WordPress/WordPress) repo / WordPress, Git-ified. Synced via SVN every 30 minutes, including branches and tags!
+* [WordPress/WordPress](https://github.com/WordPress/WordPress) repo / WordPress, Git-ified. Synced via SVN every 30 minutes, including branches and tags!
 * Git-svn
 * Scripts by scribu?
 
