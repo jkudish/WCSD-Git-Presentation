@@ -1,7 +1,7 @@
 /*
-	Copyright (c) 2011 Brian Cavalier
-	LICENSE: see the LICENSE.txt file. If file is missing, this file is subject
-	to the MIT License at: http://www.opensource.org/licenses/mit-license.php.
+	Modified Copyright (c) 2012 Joachim Kudish
+	Original Copyright (c) 2011 Brian Cavalier
+	LICENSE: see the license.txt file
 */
 
 @import "../basic.css";
@@ -17,26 +17,38 @@
 .slide h1 {
 	font-size: 4em;
 	font-weight: bold;
-	color: #dadada;
+	color: #B58900;
 	margin-bottom: 0;
 	letter-spacing: -.08em;
 	text-rendering: optimizeLegibility;
 }
 
+.slide h1.smaller {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
 .slide h2 {
-	color: #444;
+	color: #268bd2;
 	margin-top: 0;
 	margin-left: .5em;
 }
 
+.slide *.alt1 {
+	color: #d33682;
+}
+
+.slide *.alt2 {
+	color: #859900;
+}
+
 .slide p {
-	color: #222;
+	color: #657B83;
 	margin-left: 2em;
 }
 
-.slide em {
-	font-style: normal;
-	color: #888;
+.slide em, .slide a {
+	color: #586E75;
 }
 
 .slide ul > ul {
