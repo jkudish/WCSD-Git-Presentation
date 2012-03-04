@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--
+	Modified Copyright (c) 2012 Joachim Kudish
+	Original Copyright (c) 2011 Brian Cavalier
+	LICENSE: see the license.txt file
+ -->
+
+<!-- Parts from HTML5 Boilerplate: http://html5boilerplate.com -->
+
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+	Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Joachim Kudish - WCSD Git Presentation</title>
+	<meta name="description" content="WordCamp San Diego 2012 Git Presentation">
+	<meta name="author" content="Joachim Kudish">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+
+	<!-- Ensure no FUOC in the slides -->
+	<style type="text/css">
+		.presentation-loading * {
+			visibility: hidden;
+		}
+	</style>
+
+	<!-- <script src="js/modernizr-1.6.min.js" type="text/javascript" charset="utf-8"></script> -->
+
+	<!-- Configure RequireJS to load slides from the slides dir, and css from
+	     the css dir.  Note that these are relative to the location of require.js -->
+	<script type="text/javascript">
+		(function(global) {
+			global.require = {
+				baseUrl: "js",
+				paths: {
+					"slides": "../slides",
+					"css": "../css",
+					"wire": "./wire",
+					"domReady": "curl/domReady"
+				}
+			};
+
+			global.wire = {
+				plugins: [{ module: 'wire/dom' }],
+				slideContainer: { $ref: 'dom!slide-container' },
+				slidePath: 'slides/slides.html'
+			};
+		})(window);
+	</script>
+	<script type="text/javascript" src="js/curl.js"></script>
+	<script type="text/javascript">
+		require(['wire!slides-spec']);
+	</script>
+</head>
+
+<!-- Avoid any FUOC by adding presentation-loading, which the framework
+     will remove later once the first slide is ready -->
+<body class="presentation-loading">
+
+	<div>
+		<header>
+
+		</header>
+
+		<!-- The container to hold the slides -->
+		<div id="slide-container">
+
+		</div>
+
+		<!-- Extra notes -->
+		<footer>
+			<p class="slide-no-touch">Use <em>left/right arrows, or space</em> to move between slides</p>
+			<p class="slide-touch"><em>Swipe left or right</em> to move between slides</p>
+			<p>Copyright &copy; 2012 Joachim Kudish</p>
+		</footer>
+	</div>
+
+</body>
+</html>
