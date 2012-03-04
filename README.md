@@ -4,6 +4,21 @@ You can also reach me more privately at [info@jkudish.com](info@jkudish.com) if 
 
 # Outline
 
+### Intro
+
 * Basic intro to version control
 * WordPress uses SVN
 * What is git
+* Some git tools (Tower, github app, etc..)
+* What is github and why it's awesome
+
+### Case Studies
+
+* Themes
+* Plugins
+** WooCommerce
+* Private Clients
+
+### How to further integrate with WordPress
+
+* WordPress github plugin updater
