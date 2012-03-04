@@ -51,3 +51,33 @@ You can also reach me more privately at [info@jkudish.com](info@jkudish.com) if 
 * WordPress github plugin updater
 
 ## The future?
+
+---------------------------------------
+
+# License & Copyright
+
+2012 WordCamp San Diego Presentation by Joachim Kudish
+
+Copyright (c) 2012 by Joachim Kudish
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+This program incorporates work covered by the following copyright and
+permission notices:
+
+	Original [Slide Presentation Framework by Brian Cavalier](https://github.com/briancavalier/slides)
+	Open Source Initiative OSI - The MIT License
+	http://www.opensource.org/licenses/mit-license.php
+	Copyright (c) 2011 Brian Cavalier
