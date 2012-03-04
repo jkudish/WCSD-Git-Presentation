@@ -18,12 +18,37 @@ You can also reach me more privately at [info@jkudish.com](info@jkudish.com) if 
 
 ### Themes
 
+* [https://github.com/retlehs/roots](Roots)
+* [https://github.com/Automattic/_s](Automattic's _s)
+* [https://github.com/welaika/wordless](Wordless)
+* 
+
 ### Plugins
 
-* WooCommerce
+* [https://github.com/woothemes/woocommerce](WooCommerce)
+* [https://github.com/crowdfavorite/wp-post-formats](WP-post-formats)
+
 
 ### Private Clients
+
+* Private repositories
+* Beanstalk
+* Deployhq
+* Capistrano
+
+### Other Projects
+
+* [https://github.com/andreascreten/wp-cli](WP-cli)
+* 
+
+### Core Development
+
+* [https://github.com/WordPress/WordPress](WordPress/WordPress) repo / WordPress, Git-ified. Synced via SVN every 30 minutes, including branches and tags!
+* Git-svn
+* Scripts by scribu?
 
 ## How to further integrate with WordPress
 
 * WordPress github plugin updater
+
+## The future?
