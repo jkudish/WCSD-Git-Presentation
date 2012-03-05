@@ -1,6 +1,6 @@
-This git repository is my [2012 WordCamp San Diege presentation](http://2012.sandiego.wordcamp.org/schedule/). Below is the outline for the presentation and my slides are part of the repo as well. You can preview the slides at [jkudish.com/wcsd](http://jkudish.com/wcsd) (they get rebuilt everytime the repo is updated).
+This git repository is my [2012 WordCamp San Diege presentation](http://2012.sandiego.wordcamp.org/schedule/). Below is the outline for the presentation (which is very much still a work in progress) and my slides are part of the repo as well. You can preview the slides at [jkudish.com/wcsd](http://jkudish.com/wcsd) (they get rebuilt everytime the repo is updated).
 
-The idea here is that anyone can contribute to the talk by submitting pull requests or opening up issues for questions or comments.
+The idea here is that anyone can contribute to the talk by submitting pull requests or opening up issues for questions or comments. [Read the full explanation of the idea on my site](http://jkudish.com/wordcamp-san-diego-2012/)
 
 You can also reach me more privately at [info@jkudish.com](info@jkudish.com) if you'd like.
 
