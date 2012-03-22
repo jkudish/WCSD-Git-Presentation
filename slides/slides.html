@@ -1,6 +1,7 @@
 <div class="slide-layout-title">
 	<h1>Git & WordPress</h1>
 	<h2>Workflows and Case Studies</h2>
+	<div style="margin-top: 3em"></div>
 </div>
 <hr>
 <div>
@@ -27,26 +28,10 @@
 <div>
 	<h1 class="smaller">Version Control Systems (VCS)</h1>
 	<ul>
-		<li class="larger alt3">SVN (what WordPress.org uses)</li>
-		<li class="larger alt3">Git</li>
-		<li class="larger alt3">Others... (cvs, hg)</li>
+		<li class="larger">SVN (what WordPress.org uses)</li>
+		<li class="larger">Git</li>
+		<li class="larger">Others... (cvs, hg)</li>
 	</ul>
-</div>
-<hr>
-<div>
-	<h1 class="smaller">Subversion (SVN)</h1>
-	<p>SVN relies on a single "central repository" of the code. It requires a network connection to access and in most cases if the repository crashes, you're toast.</p>
-	<ul>
-		<li><a href="http://core.svn.wordpress.org/">core.svn.wordpress.org</a></li>
-		<li><a href="http://plugins.svn.wordpress.org/">plugins.svn.wordpress.org</a></li>
-		<li><a href="http://themes.svn.wordpress.org/">themes.svn.wordpress.org</a></li>
-	</ul>
-</div>
-<hr>
-<div>
-	<h1 class="smaller">Git</h1>
-	<p class="alt2">Every Git clone is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server</p>
-	<p class="alt1">&mdash; <a href="http://git-scm.com/">git-scm.com</a> </p>
 </div>
 <hr>
 <div>
@@ -65,9 +50,25 @@
 </div>
 <hr>
 <div>
+	<h1 class="smaller">Subversion (SVN)</h1>
+	<p>SVN relies on a single "central repository" of the code. It requires a network connection to access and in most cases if the repository crashes, you're toast.</p>
+	<ul>
+		<li><a href="http://core.svn.wordpress.org/" target="_blank">core.svn.wordpress.org</a></li>
+		<li><a href="http://plugins.svn.wordpress.org/" target="_blank">plugins.svn.wordpress.org</a></li>
+		<li><a href="http://themes.svn.wordpress.org/" target="_blank">themes.svn.wordpress.org</a></li>
+	</ul>
+</div>
+<hr>
+<div>
+	<h1 class="smaller">Git</h1>
+	<p class="alt2">Every Git clone is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server</p>
+	<p class="alt1">&mdash; <a href="http://git-scm.com/" target="_blank">git-scm.com</a> </p>
+</div>
+<hr>
+<div>
 	<h1>How to do it?</h1>
 	<h2>At it's root Git is a command-line tool</h2>
-	<p>Even you choose to use a GUI tool for your Git workflow, you should know how it works behind the scenes</p>
+	<p>Even if you choose to use a GUI tool for your Git workflow, you should know how it works behind the scenes</p>
 </div>
 <hr>
 <div>
@@ -91,17 +92,66 @@
 	<p><code>$ git branch [branchname]</code><br><small><em>create a new branch</em></small></p>
 	<p><code>$ git merge</code><br><small><em>merge two branches together</em></small></p>
 	<p><code>$ git tag</code><br><small><em>create a snapshot of your repository</em></small></p>
-	<p>There's a few others. Find full details at: <a href="http://gitref.org/">gitref.org</a></p>
+	<p>There's a few others. Find full details at: <a href="http://gitref.org/" target="_blank">gitref.org</a></p>
 </div>
 <hr>
 <div>
 	<h2>Sometimes an interface is better</h2>
 	<p><img src="slides/images/git-tower.jpg" alt="Git Tower"></p>
-	<p><small>Screenshot from <a href="http://www.git-tower.com/">Git Tower</a><small></p>
+	<p><small>Screenshot from <a href="http://www.git-tower.com/" target="_blank">Git Tower</a><small></p>
 </div>
 <hr>
 <div>
 	<h2><small>Quickly see what's changed and sync your changes</small></h2>
 	<p><img src="slides/images/github-mac.jpg" alt="Github App"></p>
-	<p><small>Screenshot from <a href="http://mac.github.com/">Github App for Mac</a><small></p>
+	<p><small>Screenshot from <a href="http://mac.github.com/" target="_blank">Github App for Mac</a><small></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">Some popular apps</h2>
+	<ul>
+		<li><a href="http://www.git-tower.com/" target="_blank">Git Tower (Mac OS X)</a></li>
+		<li><a href="http://mac.github.com/" target="_blank">Github App (Mac OS X)</a</li>
+		<li><a href="http://code.google.com/p/tortoisegit/" target="_blank">TortoiseGit (Windows)</a</li>
+		<li><a href="https://code.google.com/p/msysgit/" target="_blank">msysgit (Windows)</a</li>
+		<li><a href="http://www.gitboxapp.com/" target="_blank">Gitbox (Mac OS X)</a</li>
+		<li><a href="http://git-cola.github.com/" target="_blank">Git Cola (Cross Platform)</a</li>
+	</ul>
+</div>
+<hr>
+<div>
+	<h1 class="alt2">That's the how, now some best practices.</h1>
+</div>
+<hr>
+<div>
+	<h2>Make sure you and your team agree on a workflow process.</h2>
+	<h2 class="alt1">Commit often and in a logical way.</h2>
+	<h2 class="alt2">Write appropriate and well detailed commit messages.</h2>
+	<h2 class="alt1">Don't commit code with major errors in it.</h2>
+	<h2 class="alt3">Use branches.</h2>
+</div>
+<hr>
+<div>
+	<p class="alt1">Git flow, a popular workflow - read all about it at <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">nvie.com</a></p>
+	<p><img src="slides/images/gitflow.png" alt="Gitflow"></p>
+</div>
+<hr>
+<div>
+	<h2>Github, a godsend for developers</h2>
+	<p><img src="slides/images/github-wordpress.jpg" alt="GitHub"></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt2">Building projects, collaboratively and easily</h2>
+	<ul>
+		<li>Easy forking, branching and tagging</li>
+		<li>Manage teams and organizations</li>
+		<li>Built-in issue tracking</li>
+		<li>Amazing code review tools</li>
+		<li>Easy wikis</li>
+	</ul>
+</div>
+<hr>
+<div>
+	<h2 class="alt1 bigger">Ok. Enough general stuff, let's jump into tracking WordPress, themes and plugins with Git</h2>
 </div>

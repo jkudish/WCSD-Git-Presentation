@@ -25,6 +25,13 @@ If you'd like to contribute, please submit a pull request or open an issues fo q
 
 ## Case Studies
 
+### Private Clients
+
+* Private repositories
+* Beanstalk
+* Deployhq
+* Capistrano
+
 ### Themes
 
 * [Roots](https://github.com/retlehs/roots)
@@ -37,14 +44,6 @@ If you'd like to contribute, please submit a pull request or open an issues fo q
 * [WP-post-formats](https://github.com/crowdfavorite/wp-post-formats)
 * [Custom Metadata Manager](https://github.com/jkudish/custom-metadata)
 * [WordPress github plugin updater](https://github.com/jkudish/WordPress-GitHub-Plugin-Updater)
-
-
-### Private Clients
-
-* Private repositories
-* Beanstalk
-* Deployhq
-* Capistrano
 
 ### Other Projects
 
