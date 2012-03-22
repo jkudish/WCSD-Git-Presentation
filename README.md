@@ -15,8 +15,11 @@ If you'd like to contribute, please submit a pull request or open an issues fo q
 ## Intro
 
 * Basic intro to version control
-* WordPress uses SVN
-* What is git
+* List different version control systems
+* WordPress uses SVN/what is SVN
+* What is Git
+* Why version control
+* How to do it, how git works (brief), basic commands
 * Some git tools (Tower, github app, etc..)
 * What is github and why it's awesome
 
