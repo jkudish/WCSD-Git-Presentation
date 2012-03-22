@@ -8,6 +8,7 @@
 	<h2>What is it?</h2>
 	<h2 class="alt1">Why do it?</h2>
 	<h2 class="alt2">How to do it?</h2>
+	<h2 class="alt3">Real world uses</h2>
 </div>
 <hr>
 <div>
@@ -25,9 +26,11 @@
 <hr>
 <div>
 	<h1 class="smaller">Version Control Systems (VCS)</h1>
-	<h2 class="alt2">SVN (what WordPress.org uses)</h2>
-	<h2 class="alt1">Git</h2>
-	<h2>Others... (cvs, hg)</h2>
+	<ul>
+		<li class="larger alt3">SVN (what WordPress.org uses)</li>
+		<li class="larger alt3">Git</li>
+		<li class="larger alt3">Others... (cvs, hg)</li>
+	</ul>
 </div>
 <hr>
 <div>
@@ -44,4 +47,49 @@
 	<h1 class="smaller">Git</h1>
 	<p class="alt2">Every Git clone is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server</p>
 	<p class="alt1">&mdash; <a href="http://git-scm.com/">git-scm.com</a> </p>
+</div>
+<hr>
+<div>
+	<h1>Why do it?</h1>
+	<h2>Simple. It makes your life as a developer easier</h2>
+</div>
+<hr>
+<div>
+	<ul>
+		<li class="alt2">All your work is versioned</li>
+		<li class="alt1">Seamless collaboration</li>
+		<li class="alt2">Separate production from development</li>
+		<li class="alt1">Separate bug fixes from feature development</li>
+		<li class="alt3">Easy(er) to roll-back</li>
+	</ul>
+</div>
+<hr>
+<div>
+	<h1>How to do it?</h1>
+	<h2>At it's root Git is a command-line tool</h2>
+	<p>Even you choose to use a GUI tool for your Git workflow, you should know how it works behind the scenes</p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">Some basic commands</h2>
+	<p><code>$ git init</code><br><small><em>creates a new git repository</em></small></p>
+	<p><code>$ git clone [url]</code><br><small><em>clones an existing repository</em></small></p>
+	<p><code>$ git add [files]</code><br><small><em>stages files to be committed</em></small></p>
+	<p><code>$ git commit -m "your message"</code><br><small><em>commits your files to the repo (always write meaningful commit messages)</em></small></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">More basic commands</h2>
+	<p><code>$ git status</code><br><small><em>compare working directory vs. staging area</em></small></p>
+	<p><code>$ git fetch</code><br><small><em>download repository data from a remote location</em></small></p>
+	<p><code>$ git pull</code><br><small><em>fetch repository and attempt to merge into the current branch</em></small></p>
+	<p><code>$ git push</code><br><small><em>push repository to remote location</em></small></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">A few more advanced commands</h2>
+	<p><code>$ git branch [branchname]</code><br><small><em>create a new branch</em></small></p>
+	<p><code>$ git merge</code><br><small><em>merge two branches together</em></small></p>
+	<p><code>$ git tag</code><br><small><em>create a snapshot of your repository</em></small></p>
+	<p>There's a few others. Find full details at: <a href="http://gitref.org/">gitref.org</a></p>
 </div>
