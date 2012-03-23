@@ -100,6 +100,10 @@
 	clear: both;
 }
 
+#smaller-ps p {
+	margin-bottom: 0;
+}
+
 @media screen and (max-device-width: 480px) {
 	.slide-view-module {
 		margin-top: 2em;

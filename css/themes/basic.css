@@ -18,14 +18,14 @@ body {
 }
 
 footer {
-	min-width: 40em;
-	width: 80%;
+	width: 100%;
 	margin: 1em auto 1em;
 	text-align: right;
 }
 
 footer p {
-	font-size: 1.1em;
+	font-size: 0.6em;
+	line-height: 0.7em;
 	color: #657B83;
 }
 
@@ -46,10 +46,6 @@ em {
 .slide h2 {
 	font-size: 1.5em;
 	color: #666;
-}
-
-.slide p {
-	line-height: 1.25em;
 }
 
 .slide-view-module {
