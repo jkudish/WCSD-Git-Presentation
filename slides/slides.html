@@ -155,3 +155,119 @@
 <div>
 	<h2 class="alt1 bigger">Ok. Enough general stuff, let's jump into tracking WordPress, themes and plugins with Git</h2>
 </div>
+<hr>
+<div>
+	<h2 class="alt2 bigger">Do you build client sites?</h2>
+	<p>You probably want a private repository.</p>
+	<p>You probably want to automate code deployment.</p>
+	<p>You definitely want to version your work.</p>
+</div>
+<hr>
+<div>
+	<h2>Private Repositories</h2>
+	<p>Host a private Git repository containing the entire WordPress installation</p>
+	<p>Ignore the <samp>.htaccess</samp> and <samp>wp-config.php</samp> file from the repository, or setup a <samp>local-config.php</samp> file.</p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">Local config set-up</h2>
+	<p>Include your <samp>wp-config.php</samp> in the repo, remove the database connection information and add the following to it:</p>
+	<p><code>include_once('local-config.php');</code></p>
+	<p>Then, setup <samp>local-config.php</samp> (gitignored) for each environment (dev, staging, production) with local database info + <samp>WP_DEBUG</samp></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt2">Where to host private repos</h2>
+	<ul>
+		<li><a href="https://github.com/plans" target="_blank">Github private repositories</a></li>
+		<li><a href="http://beanstalkapp.com" target="_blank">Beanstalk</a</li>
+		<li><a href="https://bitbucket.org/" target="_blank">BitBucket</a</li>
+		<li><a href="http://offers.assembla.com/free-git-hosting/" target="_blank">Assembla</a</li>
+		<li><a href="http://unfuddle.com/" target="_blank">Unfuddle</a</li>
+		<li><a href="http://book.git-scm.com/4_setting_up_a_private_repository.html" target="_blank">Roll your own</a</li>
+	</ul>
+</div>
+<hr>
+<div>
+	<h2>Deploying sites</h2>
+	<p>You want to develop locally and automatically push code (usually a branch form your repo) up to your staging and production envrionments</p>
+	<ul>
+		<li><a href="http://beanstalkapp.com" target="_blank">Beanstalk</a</li>
+		<li><a href="https://deployhq.com" target="_blank">DeployHQ</a></li>
+		<li><a href="https://github.com/capistrano/capistrano/wiki/Documentation-v2.x" target="_blank">Capistrano</a</li>
+		<li><a href="http://jenkins-ci.org/" target="_blank">Continuous Integration (Jenkins)</a</li>
+	</ul>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">Private Repository on GitHub</h2>
+	<p><img src="slides/images/github-project.jpg" alt="Github Project"></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt2">Automatic Deployments via DeployHQ</h2>
+	<p><img src="slides/images/deploy-hq.jpg" alt="Deploy HQ"></p>
+</div>
+<hr>
+<div>
+	<h1>Open Source Themes & Plugins</h1>
+</div>
+<hr>
+<div>
+	<h2>Twenty Twelve is on Github</h2>
+	<p><img src="slides/images/twentytwelve.jpg" alt="Twenty Twelve"></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">Other Themes</h2>
+	<ul>
+		<li><a href="https://github.com/Automattic/_s" target="_blank">_s (underscores)</a</li>
+		<li><a href="https://github.com/retlehs/roots" target="_blank">Roots</a></li>
+		<li><a href="https://github.com/welaika/wordless" target="_blank">WordLess</a</li>
+	</ul>
+</div>
+<hr>
+<div>
+	<p class="alt3 bigger">Putting your project on Github <br> encourages the community to participate</p>
+	<p><img src="slides/images/github-encourage.jpg" alt="Roots is hosted on Github"></p>
+</div>
+<hr>
+<div>
+	<p>You already have a free plugin on the WordPress.org repository, make it available on Github.</p>
+	<p>Watch the watchers grow and the pull requests appear.</p>
+	<p>Tag and branch your code and make it easy for people to participate.</p>
+	<p><img src="slides/images/woocommerce.jpg" alt="WooCommerce is hosted on Github"></p>
+</div>
+<hr>
+<div>
+	<h1>What If?</h1>
+	<h2 class="alt1">WordPress core was built using Github?</h2>
+	<h2 class="alt3">WordPress plugins and themes were served from Github?</h2>
+</div>
+<hr>
+<div>
+	<h1>Existing integrations</h1>
+</div>
+<hr>
+<div>
+	<h2>Github Plugin Updater</h2>
+	<p><img src="slides/images/plugin-updater.jpg" alt="Plugin Updater"></p>
+	<p>&mdash; see <small><a href="https://github.com/jkudish/WordPress-GitHub-Plugin-Updater" target="_blank">github.com/jkudish/WordPress-GitHub-Plugin-Updater</a></small></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt1">Github Theme Updater</h2>
+	<p><img src="slides/images/theme-updater.jpg" alt="Theme Updater"></p>
+	<p>&mdash; see <small><a href="https://github.com/UCF/Theme-Updater" target="_blank">github.com/UCF/Theme-Updater</a></small></p>
+</div>
+<hr>
+<div>
+	<h2 class="alt2">WordPress core is there too!</h2>
+	<p><img src="slides/images/wordpress-core.jpg" alt="WordPress Core"></p>
+	<p>&mdash; see <small><a href="https://github.com/wordpress/wordpress" target="_blank">github.com/wordpress/wordpress</a></small></p>
+</div>
+<hr>
+<div>
+	<h1>Q&A</h1>
+	<h2>&mdash; Thank you!</h2>
+</div>

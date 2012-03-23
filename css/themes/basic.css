@@ -13,8 +13,8 @@ html {
 
 body {
 	font-size: 100%;
-	background-color: #FDF6E3;
-	color: #657B83;
+	background: #eee url('bg.jpg');
+	color: #586e75;
 }
 
 footer {

@@ -51,6 +51,10 @@
 	color: #268bd2;
 }
 
+.slide *.alt4 {
+	color: #B58900;;
+}
+
 .slide p {
 	color: #657B83;
 	margin-left: 2em;
