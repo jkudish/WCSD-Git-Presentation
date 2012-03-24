@@ -23,8 +23,12 @@ footer {
 	text-align: right;
 }
 
+footer.final-foot {
+	margin-top: 2.5em;
+}
+
 footer p {
-	font-size: 0.6em;
+	font-size: 0.9em;
 	line-height: 0.7em;
 	color: #657B83;
 }
